@@ -1,0 +1,30 @@
+{
+	"firefox":
+		{	
+			"browser_name" : "Mozilla Firefox",
+			"browser_exe_location" :"PROGRAMFILES(X86)\Mozilla Firefox\firefox.exe",
+			"browser_data_location" : "%APPDATA%\Mozilla\Firefox\Profiles"
+			"browser_config_location" : "%APPDATA%\Mozilla\Firefox\profiles.ini"
+		},
+	"chrome":
+		{
+			"browser_name" : "Google Chrome",
+			"browser_exe_location" : "PROGRAMFILES(X86)\Google\Chrome\Application\chrome.exe",
+			"browser_data_location" : "%LOCALAPPDATA%\Local\Google\Chrome\User Data",
+			"browser_config_location" : ""
+		},
+	"iexplorer":
+		{
+			"browser_name" : "Internet Explorer",
+			"browser_exe_location" : "PROGRAMFILES(X86)\Internet Explorer\iexplore.exe",
+			"browser_data_location" : "%APPDATA%\Microsoft\Internet Explorer",
+			"browser_config_location" : ""
+		},
+	"opera":
+		{
+			"browser_name" : "Opera Browser",
+			"browser_exe_location" : "PROGRAMFILES(X86)\Opera\opera.exe",
+			"browser_data_location" : "%APPDATA%\Opera\Opera",
+			"browser_config_location" : ""
+		}
+}
