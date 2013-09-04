@@ -41,7 +41,7 @@ helper.get_env_var_based_addr = function (env_var_string) {
 
 helper.prepareDeletePath = function(browser_data_location) {
 	split_path_array = browser_data_location.split("/")
-	present_env_addr = get_env_var_based_addr (split_path_array[0])
+	present_env_addr = helper.get_env_var_based_addr (split_path_array[0])
 	return_location = present_env_addr + '/' + split_path_array.splice(1).join('/')
 	console.log("Delete path location : " + return_location)
 	return return_location
