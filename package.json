@@ -6,7 +6,8 @@
 			"express" : "",
 			"http-proxy" : "",
 			"plist" : "",
-			"ssh2" : ""
+			"ssh2" : "",
+			"winston" : ""
 		}
 , "repository" :
 	{
