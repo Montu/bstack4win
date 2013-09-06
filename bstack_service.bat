@@ -8,8 +8,7 @@ set timeout_val=10
 :start
 tasklist /FI "IMAGENAME eq %process_name%" 2>NUL | find /I /N "%process_name%">NUL
 if "%ERRORLEVEL%" NEQ "0" cmd /c start node %process_start_path%
-REM timeout %timeout_val%
-PING 1.1.1.1 -n 1 -w 30000 >NUL
+timeout %timeout_val%
 goto start
 
 
